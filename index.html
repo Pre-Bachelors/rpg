@@ -1,0 +1,42 @@
+<!-- Sep 17, 2014 -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>RPG - Rewarding Programming Game</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <img src="img/logo.png" alt="RPG"/>
+            <h1>RPG - Rewarding Programming Game</h1>
+        </header>
+        <section>
+            <article id="level_progress">
+                <h1>level <span class="level">0</span></h1>
+                <progress value="0" max="500" id=p_bar>0</progress>
+                <h1>level <span class="next_level">1</span></h1>
+                <h6>Exp: <span id="exp">0</span><br />Level up: <span id="next_exp">0</span></h6>
+            </article>
+            <article id="achievements">
+                <h2>Achievements</h2>
+                <ul>
+                    <li><span class="no" id="chapter">0x </span>read a programming book chapter</li>
+                    <li><span class="no" id="cheatsheet">0x </span>work on the giant web cheatsheet <em>(for every 30 min.)</em></li>
+                    <li><span class="no" id="project">0x </span>do a project <em>(complete it entirely)</em></li>
+                    <li><span class="no" id="htmlcss">0x </span>write the html and css protion of a website</li>
+                    <li><span class="no" id="javascript">0x </span>script the website <em>(add javascript and/or other items - complete the website entirely)</em></li>
+                    <li><span class="no" id="design">0x </span>plan and design websites, projects, etc. <em>(for every 30 min.)</em></li>
+                    <li><span class="no" id="book">0x </span>finish reading a programming book</li>
+                </ul>
+                <a href="update.html">update</a>
+            </article>
+            <aside id="next_prize">
+                <h2>Current Level: <span class="level">0</span>.<br/> Next level prize: </h2>
+                <p id="prize">Unknown</p>
+            </aside>
+        </section>
+        <script src="js/main.js"></script>
+    </body>
+</html>

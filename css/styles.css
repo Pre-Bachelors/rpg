@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    background: #5c4433;
+    font-family:Verdana, sans-serif;
+}
+
+header
+{
+    background: #382f29;
+    width: 100%;
+    height: 100px;
+}
+
+header h1
+{
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    padding-right: 30px;
+    width: 70%;
+    text-align: right;
+    font-family:Haettenschweiler, Verdana, sans-serif;
+    letter-spacing: 0.15em;
+    color: #fff;
+    color: hsla(0, 0%, 100%, 0.86);
+}
+
+section
+{
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+article, aside, form
+{
+    border-radius: 9px;
+    padding-left: 15px;
+    box-shadow: 3px 3px 5px;
+}
+
+#achievements
+{
+    display: inline-block;
+    width: 49.5%;
+    background: rgba(116, 93, 76, 0.9);
+}
+
+#achievements ul
+{
+    list-style-type: none;
+    font-size: 14px;
+}
+
+#achievements a, input[type=submit]
+{
+    padding: 3px;
+    border-radius: 4px;
+    background: #312d28;
+    color: #f4951a;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 90%;
+    z-index: 1;
+    box-shadow: 3px 3px 3px black;
+}
+
+.no
+{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 1.2em;
+    margin-right: 5px;
+}
+
+#achievements li 
+{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#next_prize
+{
+    width: 34.2%;
+    float: right;
+    background: #c66947;
+}
+
+#level_progress
+{
+    margin: 15px auto 40px auto;
+    background-color: #312d28;
+    display: block;
+    height: 50px;
+}
+
+#level_progress h1
+{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    bottom: 16px;
+    color: #d6a913;
+}
+
+#level_progress progress
+{
+    width: 50%;
+    display: inline-block;
+    margin: 18px auto;
+}
+
+#level_progress h6
+{
+    display: inline-block;
+    color: #a08c49;
+    width: 170px;
+    text-align: right;
+    font-size: 70%;
+    float: right;
+    position: relative;
+    top: -34px;
+}
+
+#level_progress h6 span
+{
+    display: inline-block;
+    width: 20px;
+    text-align: left;
+    margin-right: 22px;
+}
+    
+aside h2 {
+    color: #312d28;
+    font-size: 20px;
+}
+
+aside p {
+    padding: 12px;
+    font-style: italic;
+}
+
+form
+{
+    width: 90%;
+    margin: 15px auto 40px auto;
+    background: rgba(116, 93, 76, 0.9);
+    text-align: left;
+    padding: 10px 20px 20px 20px;
+}
+
+h3 { 
+    background: #382f29;
+    text-transform: uppercase;
+    color: #efe1e1;
+    font-weight: 700;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px;
+    /*margin-bottom: 10px;   */
+    width: 150px;
+    text-align: center;
+    font-size: 90%;
+    position: relative;
+    top: -25px;
+}
+
+input
+{
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 6px;
+    width: 35px;
+    height: 25px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+    background: #ddd8d8;
+    color: #aaa;
+}
+
+input:hover, input:focus, .active
+{
+    color: #000;
+    background: #fff;
+}
+
+form button
+{
+    width: 16px;
+    height: 16px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.46);
+}
+
+form button:hover
+{
+    background-color: rgba(211, 176, 121, 0.81);
+}
+
+form button:active
+{
+    background-color: rgba(82, 71, 71, 0.6);
+}
+
+form button.add
+{
+    position: relative;
+    top: -7px;
+    left: 3px;
+}
+
+form button.minus
+{    
+    position: relative;
+    left: -12.5px;
+    bottom: -12px;
+}
+
+input[type=submit]
+{
+    width: 70px;
+    height: 27px;
+}
